@@ -6,5 +6,17 @@
 <project name="gabrielgagz/android_kernel_razer_pearlyn" path="kernel/razer/pearlyn" remote="githubcom" revision="cm-14.1" />
 <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="githubcom" revision="cm-14.1" />
 <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="githubcom" revision="android-7.1" />
+  <!--Replace build system-->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build" name="kxzxxx/android_build" groups="pdk">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
+  <!--Replace with 64bit python-->
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  <project path="prebuilts/python/linux-x86/2.7.5" 
+    name="platform/prebuilts/python/linux-x86/2.7.5" 
+    groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp"
+    revision="826b23851575eece3a3d1ae3bfba73b0060a36f8" />
 </manifest>
 
