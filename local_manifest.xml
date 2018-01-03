@@ -6,5 +6,6 @@
 <project name="gabrielgagz/android_kernel_razer_pearlyn" path="kernel/razer/pearlyn" remote="githubcom" revision="cm-14.1" />
 <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="githubcom" revision="cm-14.1" />
 <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="githubcom" revision="android-7.1" />
+<project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="githubcom" revision="cm-14.1" />
 </manifest>
 
