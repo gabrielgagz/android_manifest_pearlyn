@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="githubcom" fetch="https://github.com/" />
-<project name="gabrielgagz/android_device_razer_pearlyn" path="device/razer/pearlyn" remote="githubcom" revision="cm-14.1" />
-<project name="gabrielgagz/proprietary_vendor_razer_pearlyn" path="vendor/razer/pearlyn" remote="githubcom" revision="cm-14.1" />
-<project name="gabrielgagz/android_kernel_razer_pearlyn" path="kernel/razer/pearlyn" remote="githubcom" revision="cm-14.1" />
-<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="githubcom" revision="cm-14.1" />
-<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="githubcom" revision="android-7.1" />
-<project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="githubcom" revision="cm-14.1" />
+<project name="gabrielgagz/android_device_razer_pearlyn" path="device/razer/pearlyn" remote="githubcom" revision="lineage-15.1" />
+<project name="gabrielgagz/proprietary_vendor_razer_pearlyn" path="vendor/razer/pearlyn" remote="githubcom" revision="lineage-15.1" />
+<project name="gabrielgagz/android_kernel_razer_pearlyn" path="kernel/razer/pearlyn" remote="githubcom" revision="lineage-15.1" />
+<project name="gabrielgagz/android_hardware_qcom_media" path="hardware/qcom/media-caf/apq8084" remote="githubcom" revision="lineage-15.1-caf-8084" />
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="githubcom" revision="lineage-15.1" />
+<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="githubcom" revision="android-8.1" />
+<project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="githubcom" revision="lineage-15.1" />
 </manifest>
 
